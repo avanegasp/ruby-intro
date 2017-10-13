@@ -7,7 +7,9 @@
 ## Resumen
 Crea un una variable `old_string` la cual tenga el valor `"Ruby is cool"`
 
-Usa metodos de la clase `String` para crear una nueva variable `new_string` la cual sea igual `old_string` de modo que ahora sea igual a `"LOOC SI YBUR"` y asigna este nuevo valor a la variable .
+Usa metodos de la clase `String` para crear una nueva variable `new_string` la cual sea igual `old_string` de modo que ahora sea igual a `"LOOC SI YBUR"` y asigna este nuevo valor a la variable
+
+
 
 ## Pasos
 

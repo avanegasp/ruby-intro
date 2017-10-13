@@ -11,6 +11,15 @@ Ahora, calcula la suma, diferencia, cociente, producto y modulo de estos dos num
 
 Para el cociente, asegurate de convertir las variables a `Floats` antes de realizar la division.
 
+num1 = 13;
+num2 = 7;
+
+sum = num1 + num2
+difference = num1 - num2
+quotient = num1 / num2
+product=num1 * num2
+modulus=num1 % num2
+
 ## Pasos
 
 ## Paso 0: Pseudocode

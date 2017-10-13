@@ -1,7 +1,16 @@
  #Defining Variables
+ # 1.asignar la variable first_name que es igual a Angie
+ # 2.asignar la variable last_name que es igual a Vanegas
+ # 3.asignar la variable age que es igual a 31
+ # 4.guardar
+ # 4.correr el archivo en rspec
+
+
 
 # Tu solucion abajo
-
+first_name="Angie";
+last_name="Vanegas";
+age=30;
 
 # Pruebas NO LAS BORRES
 
