@@ -2,6 +2,7 @@
 
 
 # Tu solucion abajo:
+
 num1 = 13
 num2 = 7
 
@@ -11,11 +12,8 @@ quotient = num1.to_f / num2.to_f
 product=num1 * num2
 modulus=num1 % num2
 
-# puts sum
-# puts difference
-# puts quotient
-# puts product
-# puts modulus
+
+
 
 
 # Pruebas NO LAS BORRES
