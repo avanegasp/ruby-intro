@@ -1,5 +1,4 @@
-e
-  word_array = %w[hola como estas]
+word_array = %w[hola como estas]
 
   # Returns a new array with the results of running block once for every element in enum.
 
@@ -87,13 +86,13 @@ e
 
   # p  batman, "nanana"
 
-    def my_map_2(&block)
-      result = []
-      each do |element|
-        result << block.call(element)
-      end
-      result
+  def my_map_2(&block)
+    result = []
+    each do |element|
+      result << block.call(element)
     end
+    result
+  end
 
   def my_map_2(&block)
     result = []
