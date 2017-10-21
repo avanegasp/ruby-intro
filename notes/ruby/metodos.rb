@@ -7,6 +7,14 @@ def say_hello_to_person?(name, height = 31, blah)
 end
 
 
+def times_two!(arr)
+  arr.each.with_index do |num, index|
+    arr[index] = num * 2
+  end
+end
+
+
+
 #
 
 arr = [2,1,3]

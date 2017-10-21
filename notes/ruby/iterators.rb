@@ -148,7 +148,13 @@ end
 
 
 nums = [1,2,3,4]
-10
+
+nums.each.with_index do |elem, index|
+  nums[index]
+end
+
+
+
 
 mult = nums.map do |element|
   element * 2
