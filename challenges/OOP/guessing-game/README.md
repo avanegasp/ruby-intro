@@ -4,11 +4,11 @@
 
 En este reto vas a crear un juego de adivinar. Piensa en terminos de cuando tenias 7 años y le preguntabas a tus amigos que adivinaran el numero que estabas pensando.
 
-Deberas crear la clase `GuessingGame`, la cual a crear una instancia de esta la inicializa con una varible de instancia `answer` la cual tiene un integer como valor.
+Deberas crear la clase `GuessingGame`, la cual al crear una instancia de esta la inicializa con una varible de instancia `answer` la cual tiene un integer como valor.
 
 Define un metodo de instacia `GuessingGame#guess` el cual reciba un integer llamado `guess` como input. `guess` debe devolver un simbolo `:high` si el `guess` es mas grande que `answer`, `:correct` si `guess` es igual a `answer` y `:low` si `guess` es mas bajo que `answer`.
 
-Defien un metodo de instancia `GuessingGame#solved?` el cual devuelva `true` si el `guess` mas reciente es correcto o `false` de lo contrario.
+Define un metodo de instancia `GuessingGame#solved?` el cual devuelva `true` si el `guess` mas reciente es correcto o `false` de lo contrario.
 
 Por ejemplo:
 
