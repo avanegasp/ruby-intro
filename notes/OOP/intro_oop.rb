@@ -24,7 +24,7 @@ class Dog
     @age = age
     @sex = sex
   end
-4
+
   # Getters o Readers
   def name
     @name
