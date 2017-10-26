@@ -1,4 +1,5 @@
 # Esta es la forma en que se crean errores personalizados
+require "pry"
 class NoOrangesError < StandardError
 end
 
@@ -79,7 +80,9 @@ until tree.dead?
  # Pone las naranjas en la canasta
 
  while tree.any_oranges?
-   basket << tree.pick_an_orange!
+
+   basket <<  tree.pick_an_orange!
+   binding.pry
  end
 
 
@@ -91,7 +94,6 @@ until tree.dead?
  puts "Cosecha: #{basket.size} naranjas con un diametro promedio de #{avg_diameter} cm"
  puts ""
 
- binding
  # Envejeze el arbol en 1 año
  #
  tree.age!

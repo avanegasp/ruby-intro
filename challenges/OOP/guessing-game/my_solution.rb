@@ -18,6 +18,7 @@ class GuessingGame
 
   def solved?
     @solved
+
   end
 end
 
