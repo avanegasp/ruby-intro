@@ -32,21 +32,21 @@ Cuando lees las siguientes expresiones, considera que están caen en las 4 opera
 
 -- puedo añadir estudiantes a la tabla?
 INSERT INTO students
-(first_name, last_name, gender, birthday, email, phone)
+(firts_name, last_name, gender, bithday, email, phone)
 VALUES
-('jane', 'smith', 'female', '1997-7-20', 'abc@hi.com', '123.321.2323')
+('jane', 'smith', 'female', '1997-7-20', 'abc@hi.com', '123.321.2323');
 
 -- puedo hacerlo sin incluir email y phone?
 INSERT INTO students
-(first_name, last_name, gender, birthday)
+(firts_name, last_name, gender, bithday)
 VALUES
-('jane', 'smith', 'female', '1997-7-20')
+('jane', 'smith', 'female', '1997-7-20');
 
 -- puedo cambiar el orden de mis columnas?
 INSERT INTO students
-(gender, first_name, last_name)
+(gender, firts_name, last_name)
 VALUES
-('female', 'jane', 'smith')
+('female', 'jane', 'smith');
 
 
 --------------------------------------
