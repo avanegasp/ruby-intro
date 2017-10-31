@@ -10,9 +10,21 @@
 --
 -- ---
 
+-- ---
+-- Globals
+-- ---
+
+-- SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+-- SET FOREIGN_KEY_CHECKS=0;
+
+-- ---
+-- Table 'students '
+--
+-- ---
+
 DROP TABLE IF EXISTS `students`;
 
-CREATE TABLE `students ` (
+CREATE TABLE `students` (
   `id` INTEGER PRIMARY KEY  AUTOINCREMENT NOT NULL,
   `name` VARCHAR NULL DEFAULT NULL,
   `email` VARCHAR NULL DEFAULT NULL,

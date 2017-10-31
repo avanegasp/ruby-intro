@@ -1,9 +1,9 @@
 class House
   attr_reader :square_feet, :num_bedrooms, :num_baths, :cost
 
-  def initialize(address, square_feet, num_bedrooms = 3, num_baths = 2, cost = 320_000, down_payment = 0.20, sold = false, has_tenants = false, short_sale)
-    @address = address
-    @square_feet = square_feet
+  def initialize(options)
+    @address = options[:address]
+    @name = options[:name]
     @num_bedrooms = num_bedrooms
     @num_baths = num_baths
     @cost = cost

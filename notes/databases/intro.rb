@@ -70,6 +70,7 @@ db_connection.execute(<<-SQL
                # Faker::Name.last_name.gsub("'", "''"),
                # Faker::Company.bs.gsub("'", "''")
 
+  heredoc
   db_connection.execute(<<-SQL
     insert into students (lastname, firstname, cohort, week)
     values ('#{fake_data[:fname]}', '#{fake_data[:lname]}', '#{fake_data[:company]}', #{week});
