@@ -140,7 +140,7 @@ Sigue estos pasos para tomar experiencia usando tareas de Rake, la consola y bun
 
 ##### 10. Rollback de la base de datos
 
-- Desde la terminal corre `bundle exec rake db:rollback`.
+- Desde la terminal corre `bundle exec rake db:rollback`. # me salgo de la consola
 
   Esta tarea deshace los cambios hechos por la ultima migración.
 
