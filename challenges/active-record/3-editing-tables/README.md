@@ -37,5 +37,5 @@ En este tendrás que escribir las migraciones para hacer los cambios que pedimos
 4. Corre las pruebas `bundle exec rake spec`. Estas están actualizadas para mirar el nuevo esquema. De modo que algunas deberían fallar.
 
 ### Paso 1:  Actualiza el esquema
-
+ 
 Para completar el reto, tendrás que escribir nuevas migraciones que alteren la base de datos. Puede encontrar pistas acá [RailsGuides](http://guides.rubyonrails.org/migrations.html)
