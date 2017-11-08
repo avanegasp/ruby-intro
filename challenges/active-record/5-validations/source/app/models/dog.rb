@@ -7,7 +7,8 @@ class Dog < ActiveRecord::Base
   # la licencia debe ser única para cada perro
   validates :license, { :uniqueness => true }
 
-  # la licencia, debe empezar con dos letras en mayusculas luego un guión luego cualquier carácter.
+  # la licencia, debe empezar con dos letras en mayusculas luego un guión luego
+  #cualquier carácter.
   validates :license, format: { with: /\A[A-Z]{2}\-/ }
 
   # la edad no es obligatoria, pero si esta no puede ser menor de 0
