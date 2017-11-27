@@ -1,3 +1,7 @@
+require "pry"
+
+binding.pry
+
 puts 'Hola como es tu nombre ?'
 name = gets.chomp
 puts "Hola #{name} cual es tu edad ? "

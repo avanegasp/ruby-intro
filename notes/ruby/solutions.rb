@@ -92,7 +92,7 @@ end
 class Array
   # NO destructiva
   def pad (array, value = nil)
-   copy = .clone
+    copy = array.clone
     if copy.length >= array.size
       return copy
     else
@@ -102,7 +102,7 @@ class Array
       copy
     end
   end
-
+  [].pad!
   # Destructiva
   def pad! (min_size, value = nil)
     if self.length >= min_size

@@ -75,5 +75,29 @@ Boilerplate
 
 - Modelos
   - Validaciones
+    3 niveles de validaciones
+    - Nivel mas bajo: La base de datos
+    - Nivel intermedio: En el codigo del back
+    - Nivel mas arriba: En el codigo del front
   - Asociaciones
   <!-- - queries -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
